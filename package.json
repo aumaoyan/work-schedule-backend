@@ -15,7 +15,7 @@
     "express": "^5.1.0",
     "prisma": "^6.7.0",
     "sqlite3": "^5.1.7",
-    "postinstall": "npx prisma generate && npx prisma db push"
+    "postinstall": "sh -c \"npx prisma generate && npx prisma db push\""
     
 
   }
