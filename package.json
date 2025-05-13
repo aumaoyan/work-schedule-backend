@@ -14,10 +14,9 @@
     "cors": "^2.8.5",
     "express": "^5.1.0",
     "prisma": "^6.7.0",
-    "sqlite3": "^5.1.7"
-    "scripts": {
-  "postinstall": "npx prisma generate && npx prisma db push"
-}
+    "sqlite3": "^5.1.7",
+    "postinstall": "npx prisma generate && npx prisma db push"
 
   }
 }
+
